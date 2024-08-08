@@ -6,7 +6,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/muyiwao/APIPython.git', branch: 'main'
+                git url: 'https://github.com/ChirasmitaMishra/ApipipelineSmita.git', branch: 'main'
             }
         }
         stage('Set Up Virtual Environment') {
